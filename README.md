@@ -11,6 +11,7 @@ This package implements canonical correlation in Julia. Someday it will also imp
 To perform canonical correlation analysis between matrices `X` and `Y`:
 
 ```julia
+using CrossDecomposition
 cc = canoncor(X, Y)
 ```
 
