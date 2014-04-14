@@ -1,5 +1,8 @@
 module CrossDecomposition
+using StatsBase
+import StatsBase.coef
 
-# package code goes here
+include("canoncor.jl")
 
+export canoncor, coef, scores
 end # module
